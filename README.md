@@ -1,29 +1,39 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+**Meteor Bootstrap Folder**
 
-### What is this repository for? ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+```
+#!javascript
 
-### How do I get set up? ###
+client/                   // client application code
+lib/                      // any common code for client/server.
+packages/                 // place for all your atmosphere packages
+private/                  // static files that only the server knows about
+public/                   // static files that are available to the client
+server/                   // server code
+```
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+**Meteor Bootstrap MVC**
 
-### Contribution guidelines ###
 
-* Writing tests
-* Code review
-* Other guidelines
+```
+#!javascript
 
-### Who do I talk to? ###
+client/main.js            // the main application javascript
+client/main.html          // the main application html
 
-* Repo owner or admin
-* Other community or team contact
+client/templates/         // html files (document object model)
+client/stylesheets/       // css/less/style files (view)
+
+server/publications.js    // Meteor.publish definitions
+
+lib/                      // any common code for client/server.
+lib/collections.js        // collection definitions and allow/deny rules
+
+packages/                 // place for all your atmosphere packages
+
+public/                   // static files that are served directly.
+public/images             // will serve images
+public/fonts                   // will serve fonts
+```
