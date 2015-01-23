@@ -35,5 +35,5 @@ packages/                 // place for all your atmosphere packages
 
 public/                   // static files that are served directly.
 public/images             // will serve images
-public/fonts                   // will serve fonts
+public/fonts            // will serve fonts
 ```
