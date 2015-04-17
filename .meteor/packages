@@ -6,3 +6,7 @@
 
 meteor-platform
 iron:router
+fourseven:scss
+meteoric:ionic-sass
+meteoric:ionicons-sass
+meteoric:ionic
