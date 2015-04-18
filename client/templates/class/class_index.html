@@ -18,7 +18,7 @@
           {{#ionList}}
             {{#each classes}}
               <div class="class-item">
-                <a href="{{pathFor 'classesShow'}}" class="button button-stable">
+                <a on-drag-right="alert('test')" href="{{pathFor 'classesShow'}}" class="button button-stable">
                   <div class="row">
                     <div class="info-left">
                       <div class="info-detail class-time">{{time}}</div>
