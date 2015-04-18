@@ -1,15 +1,10 @@
 <template name="classes">
 
-
-  <div class="bar bar-header bar-dark">
+  <div class="bar bar-header bar-dark class-header">
     <input type="text" placeholder="activity or region">
     <a class="item-icon-right" href="#">
       <i class="icon ion-ios-settings"></i>
     </a>
-  </div>
-
-  <div class="bar bar-header bar-dark secondary">
-    <input type="date" placeholder="activity date">
   </div>
 
   <div class="class-view">
@@ -18,17 +13,16 @@
           {{#ionList}}
             {{#each classes}}
               <div class="class-item">
-                <a on-drag-right="alert('test')" href="{{pathFor 'classesShow'}}" class="button button-stable">
+                <a href="{{pathFor 'classesShow'}}" class="button button-stable">
                   <div class="row">
                     <div class="info-left">
                       <div class="info-detail class-time">{{time}}</div>
-                      <div class="info-detail class-length">{{length}}</div>
+                      <div class="info-detail class-length">In {{length}}</div>
                     </div>
                     <div class="info-right">
                       <div class="info-detail class-gym">{{gym}}</div>
                       <div class="info-detail class-name">{{name}}</div>
-                      <div class="info-detail class-instructor">{{instructor}}</div>
-                      <div class="info-detail class-location">{{location}}</div>
+                      <div class="info-detail class-location">{{region}}</div>
                     </div>
                   </div>
                 </a>
