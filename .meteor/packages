@@ -16,3 +16,5 @@ service-configuration
 meteoric:autoform-ionic
 accounts-ui
 aldeed:template-extension
+insecure
+autopublish

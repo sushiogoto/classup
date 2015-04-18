@@ -1,5 +1,5 @@
 Template.classes.helpers({
   classes: function() {
-    return [1,2,3];
+    return ClassesList.find().fetch();
   }
 })

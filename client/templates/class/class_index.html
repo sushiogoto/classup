@@ -9,12 +9,14 @@
       {{#ionList}}
         {{#each classes}}
           <div class="padding">
-            <a href="{{pathFor 'classes.show'}}" class="button button-stable">
-            class
+            <a href="{{pathFor 'classesShow'}}" class="button button-stable">
+            {{name }}
+            {{location}}
             </a>
           </div>
         {{/each}}
       {{/ionList}}
     {{/ionContent}}
   {{/ionView}}
+  
 </template>
