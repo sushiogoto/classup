@@ -1,0 +1,23 @@
+.button, .jumboText {
+  color: white;
+  opacity: 1;
+  font-weight: bold;
+}
+.jumbotron, .reserveButton, .moreInfo {
+  height: calc(100vh -43px);
+  position: relative;
+  top: 43px;
+}
+h2 {
+  padding-top: 200px;
+}
+h2, h3, p {
+  text-align: center;
+}
+.reserveButton {
+  margin: 0;
+  position: 0;
+}
+.jumboText {
+  margin-bottom: -372px;
+}
