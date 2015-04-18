@@ -1,0 +1,18 @@
+div.class-view > div.view > div.scroll-content > div.content {
+  height: calc(100vh - 43px);
+  position: relative;
+  top: 44px;
+
+  div.list > div.class-item {
+    a {
+      width: 100%;
+      div.info-left, div.info-right {
+        div.info-detail {
+          padding: 2px;
+          color: black;
+          line-height: 30px;
+        }
+      }
+    }
+  }
+}

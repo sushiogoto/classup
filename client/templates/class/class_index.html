@@ -1,22 +1,34 @@
 <template name="classes">
 
-  {{#contentFor "headerTitle"}}
+  <div class="bar bar-header bar-dark">
     <h1 class="title">Classes</h1>
-  {{/contentFor}}
+  </div>
 
-  {{#ionView}}
-    {{#ionContent}}
-      {{#ionList}}
-        {{#each classes}}
-          <div class="padding">
-            <a href="{{pathFor 'classesShow'}}" class="button button-stable">
-            {{name }}
-            {{location}}
-            </a>
-          </div>
-        {{/each}}
-      {{/ionList}}
-    {{/ionContent}}
-  {{/ionView}}
+  <div class="class-view">
+    {{#ionView}}
+      {{#ionContent}}
+          {{#ionList}}
+            {{#each classes}}
+              <div class="class-item">
+                <a href="{{pathFor 'classesShow'}}" class="button button-stable">
+                  <div class="row">
+                    <div class="info-left col col-30">
+                      <div class="info-detail class-time">{{ time }}</div>
+                      <div class="info-detail class-length">{{ length }}</div>
+                    </div>
+                    <div class="info-right col col-70">
+                      <div class="info-detail class-gym">{{gym}}</div>
+                      <div class="info-detail class-name">{{name}}</div>
+                      <div class="info-detail class-instructor">{{instructor}}</div>
+                      <div class="info-detail class-location">{{location}}</div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            {{/each}}
+          {{/ionList}}
+      {{/ionContent}}
+    {{/ionView}}
+  </div>
   
 </template>
