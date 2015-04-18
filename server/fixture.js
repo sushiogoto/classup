@@ -7,7 +7,7 @@ ClassesList.insert({
   instructor: "Yoshi",
   region: "Central",
   address: "16/F The Centrium, 60 Wyndham Street, Central",
-  image: "/images/xo-jane-yoga.jpg"
+  image: "/images/jane.jpg"
 });
 
 ClassesList.insert({
@@ -19,7 +19,7 @@ ClassesList.insert({
   instructor: "Dom",
   region: "Central",
   address: "49-51 Jervois Street, Central",
-  image: "/images/xo-jane-yoga.jpg"
+  image: "/images/kickboxing.jpg"
 });
 
 ClassesList.insert({
@@ -31,7 +31,7 @@ ClassesList.insert({
   instructor: "Yoshi",
   region: "Central",
   address: "16/F The Centrium, 60 Wyndham Street, Central",
-  image: "/images/xo-jane-yoga.jpg"
+  image: "/images/jane.jpg"
 });
 
 ClassesList.insert({
@@ -43,6 +43,7 @@ ClassesList.insert({
   instructor: "Kelvin",
   region: "Central",
   address: "16/F The Centrium, 60 Wyndham Street, Central"
+  image: "/images/spin.jpg"
 });
 
 ClassesList.insert({
@@ -54,6 +55,7 @@ ClassesList.insert({
   instructor: "Cassie",
   region: "Central",
   address: "139 Queens Road, Central"
+  image: "/images/spin.jpg"
 });
 
 ClassesList.insert({
@@ -65,5 +67,5 @@ ClassesList.insert({
   instructor: "Dom",
   region: "Central",
   address: "49-51 Jervois Street, Central",
-  image: "/images/xo-jane-yoga.jpg"
+  image: "/images/kickboxing.jpg"
 });
