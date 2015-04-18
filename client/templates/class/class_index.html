@@ -1,0 +1,22 @@
+<template name="classes">
+
+  {{#contentFor "headerTitle"}}
+    <h1 class="title">Classes</h1>
+  {{/contentFor}}
+
+  {{#ionView}}
+    {{#ionContent}}
+      {{#ionList}}
+        {{#each classes}}
+          <div class="padding">
+            <a href="{{pathFor 'classesShow'}}" class="button button-stable">
+            {{name }}
+            {{location}}
+            </a>
+          </div>
+        {{/each}}
+      {{/ionList}}
+    {{/ionContent}}
+  {{/ionView}}
+  
+</template>
