@@ -11,7 +11,7 @@
 h2 {
   padding-top: 200px;
 }
-h2, h3, p {
+h2, h3, h4, p {
   text-align: center;
   color: white !important;
   font-weight: bold;
@@ -20,7 +20,18 @@ h2, h3, p {
   margin: 0;
   position: 0;
 }
-.jumboText {
-  background: black;
-  margin-bottom: -372px;
+.length {
+  padding-bottom: 25px;
+}
+.modal-backdrop {
+  position: fixed;
+  top:240px;
+  left:38px;
+  width: 300px;
+  height: 200px;
+}
+.blackie {
+  color: #333 !important;
+  font-size: 20px !important;
+  padding-top: 20px;
 }

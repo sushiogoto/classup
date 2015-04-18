@@ -6,7 +6,7 @@ ClassesList.insert({
   name: "Yoga",
   instructor: "Yoshi",
   region: "Central",
-  address: "16/F The Centrium, 60 Wyndham Street, Central",
+  address: "16/F The Centrium, 60 Wyndham Street",
   image: "/images/jane.jpg"
 });
 
@@ -18,7 +18,7 @@ ClassesList.insert({
   name: "Epic Kick Boxing",
   instructor: "Dom",
   region: "Central",
-  address: "49-51 Jervois Street, Central",
+  address: "49-51 Jervois Street",
   image: "/images/kickboxing.jpg"
 });
 
@@ -30,7 +30,7 @@ ClassesList.insert({
   name: "Yoga",
   instructor: "Yoshi",
   region: "Central",
-  address: "16/F The Centrium, 60 Wyndham Street, Central",
+  address: "16/F The Centrium, 60 Wyndham Street",
   image: "/images/jane.jpg"
 });
 
@@ -42,7 +42,7 @@ ClassesList.insert({
   name: "Cycling",
   instructor: "Kelvin",
   region: "Central",
-  address: "16/F The Centrium, 60 Wyndham Street, Central",
+  address: "16/F The Centrium, 60 Wyndham Street",
   image: "/images/spin.jpg"
 });
 
@@ -54,7 +54,7 @@ ClassesList.insert({
   name: "Cycling",
   instructor: "Cassie",
   region: "Central",
-  address: "139 Queens Road, Central",
+  address: "139 Queens Road",
   image: "/images/spin.jpg"
 });
 
@@ -66,6 +66,6 @@ ClassesList.insert({
   name: "Epic Kick Boxing",
   instructor: "Dom",
   region: "Central",
-  address: "49-51 Jervois Street, Central",
+  address: "49-51 Jervois Street",
   image: "/images/kickboxing.jpg"
 });
