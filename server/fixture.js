@@ -42,7 +42,7 @@ ClassesList.insert({
   name: "Cycling",
   instructor: "Kelvin",
   region: "Central",
-  address: "16/F The Centrium, 60 Wyndham Street, Central"
+  address: "16/F The Centrium, 60 Wyndham Street, Central",
   image: "/images/spin.jpg"
 });
 
@@ -54,7 +54,7 @@ ClassesList.insert({
   name: "Cycling",
   instructor: "Cassie",
   region: "Central",
-  address: "139 Queens Road, Central"
+  address: "139 Queens Road, Central",
   image: "/images/spin.jpg"
 });
 
