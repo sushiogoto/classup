@@ -5,7 +5,8 @@ ClassesList.insert({
   gym: "Pure",
   name: "Epic Kick Boxing",
   instructor: "Yoshi",
-  location: "Central"
+  location: "Central",
+  image: "/images/xo-jane-yoga.jpg"
 });
 
 ClassesList.insert({
@@ -15,7 +16,9 @@ ClassesList.insert({
   gym: "Pure",
   name: "Yoga",
   instructor: "Dom",
-  location: "Central"
+  location: "Central",
+  image: "/images/xo-jane-yoga.jpg"
+
 });
 
 ClassesList.insert({

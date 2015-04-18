@@ -1,8 +1,33 @@
 <template name="classesShow">
 
+  <div class="bar bar-header bar-dark">
+    <a class="button icon-left ion-ios-arrow-thin-left button-clear button-dark"></a>
+    <h1 class="title">CLASS DETAIL</h1>
+  </div>
   {{#ionView}}
     {{#ionContent}}
-      <h1>{{location}}</h1>
+    <div class="jumbotron">
+      <div class="jumboText" style="opacity: 1;">
+        <h2 class="className">{{name}}</h2>
+        <h3 class="gymLocation">{{gym}} - {{location}}</h3>
+        <p class="instructor">{{instructor}}</p>
+        <p class="classDate">{{date}}</p>
+        <p class="classTime">{{time}}</p>
+      </div>
+      <div class="backJumbo" style="background: url({{image}}) no-repeat center center; background-size: cover; opacity: 0.5; padding-bottom: 15px; padding-top: 15px; min-height: 576px;"></div>
+    </div>
+    <div class="reserveButton">
+      <button class="button button-full button-assertive" style="margin: 0">
+        RESERVE CLASS
+      </button>
+    </div>
+    <!-- <div class="moreInfo">
+      <ul class="list">
+        <li class="item">
+
+        </li>
+      </ul>
+    </div> -->
     {{/ionContent}}
   {{/ionView}}
 
