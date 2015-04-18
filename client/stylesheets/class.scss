@@ -11,36 +11,11 @@ div.ionic-body.grade-a.platform-web {
     height: calc(667px - 44px);
     width: 375px;
     position: fixed;
-    top: 44px;
-
-    div.view {
-      height: calc(667px - 44px);
-      width: 375px;
-      position: fixed;
-      top: 44px;
-    }
-
-    div.scroll-content {
-      height: calc(667px - 44px);
-      width: 375px;
-      position: fixed;
-      top: 44px;
-    }
+    top: 54px;
 
     div.view > div.scroll-content > div.content {
       background-color: black;
-      height: calc(667px - 44px);
-      width: 375px;
-      position: fixed;
-      top: 44px;
 
-      div.list {
-        height: calc(667px - 44px);
-        width: 375px;
-        position: fixed;
-        top: 44px;
-      }
-      
       div.list > div.class-item {
         a {
           width: 100%;
