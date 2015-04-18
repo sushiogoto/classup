@@ -1,5 +1,6 @@
 div.ionic-body.grade-a.platform-web {
   height: 667px;
+  background: rgb(248, 248, 248);
 
   div.class-header {
     input {
@@ -11,7 +12,7 @@ div.ionic-body.grade-a.platform-web {
     height: calc(667px - 44px);
     width: 375px;
     position: fixed;
-    top: 54px;
+    top: 64px;
 
     div.view > div.scroll-content > div.content {
       background-color: black;
@@ -19,46 +20,49 @@ div.ionic-body.grade-a.platform-web {
       div.list > div.class-item {
         a {
           width: 100%;
-          margin: 0 !important;
+          margin: -1px 0 0 !important;
           div.info-left, div.info-right {
             div.info-detail {
               padding: 2px;
               color: black;
-              line-height: 30px;
               text-align: left;
             }
           }
           div.info-left {
-            width: 112.5px;
+            width: 131px;
             div.class-time {
               font-size: 20px;
               font-weight: bold;
               color: teal;
+              line-height: 30px;
             }
             div.class-length {
-              font-size: 16px;
+              font-size: 14px;
               font-weight: normal;
-              color: black;
+              color: gray;
+              line-height: 22px;
             }
           }
           div.info-right {
-            width: 262.5px;
+            width: 244px;
             div.class-gym {
               font-size: 20px;
               font-weight: bold;
               color: teal;
+              line-height: 30px;
             }
-            div.class-name, div.class-instructor {
+            div.class-name, div.class-instructor, div.class-location {
               font-size: 16px;
               font-weight: bold;
-              color: black
+              color: black;
+              line-height: 22px;
             }
           }
         }
         a::after {
           top: 0;
           right: 0;
-          bottom: 0;
+          bottom: 1px;
           left: 0;
         }
       }

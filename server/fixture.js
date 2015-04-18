@@ -1,5 +1,6 @@
 ClassesList.insert({
   time: "10:30 AM",
+  duration: "60 Min",
   length: "30 Min",
   distance: "321m",
   gym: "Pure",
@@ -12,6 +13,7 @@ ClassesList.insert({
 
 ClassesList.insert({
   time: "11:00 AM",
+  duration: "75 Min",
   length: "60 Min",
   distance: "234m",
   gym: "ATMA Studio",
@@ -24,6 +26,7 @@ ClassesList.insert({
 
 ClassesList.insert({
   time: "12:00 PM",
+  duration: "60 Min",
   length: "2 Hours",
   distance: "321m",
   gym: "Pure",
@@ -36,6 +39,7 @@ ClassesList.insert({
 
 ClassesList.insert({
   time: "13:00 PM",
+  duration: "30 Min",
   length: "3 Hours",
   distance: "124m",
   gym: "Pure",
@@ -48,6 +52,7 @@ ClassesList.insert({
 
 ClassesList.insert({
   time: "13:00 PM",
+  duration: "45 Min",
   length: "3 Hours",
   distance: "264m",
   gym: "California",
@@ -60,6 +65,7 @@ ClassesList.insert({
 
 ClassesList.insert({
   time: "16:00 PM",
+  duration: "60 Min",
   length: "7 Hours",
   distance: "234m",
   gym: "ATMA Studio",
