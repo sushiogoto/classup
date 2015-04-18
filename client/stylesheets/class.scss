@@ -1,0 +1,53 @@
+div.ionic-body.grade-a.platform-web {
+  height: calc(100vh);
+}
+div.secondary {
+  position:relative;
+  top: 43px;
+}
+
+div.class-view {
+  height: calc(100vh - 86px);
+  position: relative;
+  top: 43px;
+
+  div.view > div.scroll-content > div.content {
+    div.list > div.class-item > a {
+      width: 100%;
+      div.info-left, div.info-right {
+        div.info-detail {
+          padding: 2px;
+          color: black;
+          line-height: 30px;
+          text-align: left;
+        }
+      }
+      div.info-left {
+        width: 112.5px;
+        div.class-time {
+          font-size: 20px;
+          font-weight: bold;
+          color: teal;
+        }
+        div.class-length {
+          font-size: 16px;
+          font-weight: normal;
+          color: black;
+        }
+      }
+      div.info-right {
+        width: 262.5px;
+        div.class-gym {
+          font-size: 20px;
+          font-weight: bold;
+          color: teal;
+        }
+        div.class-name, div.class-instructor {
+          font-size: 16px;
+          font-weight: bold;
+          color: black
+        }
+      }
+    }
+  }
+}
