@@ -13,11 +13,14 @@ h2 {
 }
 h2, h3, p {
   text-align: center;
+  color: white !important;
+  font-weight: bold;
 }
 .reserveButton {
   margin: 0;
   position: 0;
 }
 .jumboText {
+  background: black;
   margin-bottom: -372px;
 }
