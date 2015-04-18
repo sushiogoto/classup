@@ -1,0 +1,25 @@
+<template name="customAtForm">
+  <div class="at-form">
+    {{#if showError}}
+      {{> atError}}
+    {{/if}}
+    {{#if showResult}}
+      {{> atResult}}
+    {{/if}}
+    {{#if showOauthServices}}
+      {{> atOauth}}
+    {{/if}}
+    {{#if showPwdForm}}
+      {{> atPwdForm}}
+    {{/if}}
+    {{#if showTermsLink}}
+      {{> atTermsLink}}
+    {{/if}}
+    {{#if showSignInLink}}
+      {{> atSigninLink}}
+    {{/if}}
+    <!-- {{#if showSignUpLink}}
+      {{> atSignupLink}}
+    {{/if}} -->
+  </div>
+</template>

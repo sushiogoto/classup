@@ -1,0 +1,42 @@
+.login-background {
+  width: 100%;
+  height: 100%;
+  background: url("/images/login_bg_720.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.login-logo-container {
+  text-align: center;
+}
+
+#login-logo {
+  margin: 90px auto 0;
+  width: 60%;
+}
+
+.slogan {
+  border: 1px solid #FFF;
+  font-size: 16px;
+  margin: 0 auto 30px;
+  padding: 15px 0;
+  text-align: center;
+  width: 45%;
+}
+
+.footer {
+  bottom: 20px;
+  font-size: 12px;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+}
+
+button.at-social-btn {
+  width: 70%;
+  margin: 0 auto;
+}
+
+div.at-oauth > div.item {
+  border: none;
+}

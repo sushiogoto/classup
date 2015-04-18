@@ -1,0 +1,29 @@
+<template name="layout">
+  <script src="http://code.jquery.com/jquery.min.js"></script>
+<!--   <script src="http://code.jquery.com/ui/1.8.17/jquery-ui.min.js"></script>
+  <script src="jquery.ui.touch-punch.min.js"></script> -->
+  {{#ionBody}}
+
+<!--     {{#if isSignedIn}}
+
+    {{> ionNavBar class="positive-background"}}
+
+    {{#ionNavView}}
+      {{#ionSubheaderBar class="padding positive-background"}}
+        <div class="button-bar bar-transparent">
+          <a href="{{pathFor 'communityIndex'}}" class="button nav-button {{isActive 'community'}}" id="community" data-button-bar="community">community</a>
+          <a href="{{pathFor 'goalsIndex'}}" class="button nav-button {{isActive 'goals'}}" id="goals" data-button-bar="goals">goals</a>
+          <a href="{{pathFor 'charityIndex'}}" class="button nav-button {{isActive 'charity'}}" id="charity" data-button-bar="charity">charity</a>
+        </div>
+      {{/ionSubheaderBar}}
+      {{> yield}}
+    {{/ionNavView}}
+
+    {{else}} -->
+
+      {{> yield}}
+
+    <!-- {{/if}} -->
+
+  {{/ionBody}}
+</template>

@@ -1,0 +1,87 @@
+$positive: #24749C;
+$positive-gradient: #b67201;
+$loading-font-size: 22px;
+
+@import '.meteor/local/build/programs/server/assets/packages/meteoric_ionic-sass/ionic';
+@import '.meteor/local/build/programs/server/assets/packages/meteoric_ionicons-sass/ionicons';
+
+@font-face {
+  font-family: "roboto-light";
+  src:
+  url("/fonts/roboto/Roboto-Light.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "roboto";
+  src:
+  url("/fonts/roboto/Roboto-Regular.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "mission-script";
+  src:
+  url("/fonts/Mission-Script.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+body * {
+  color: #FFF;
+  font-family: 'roboto-light';
+}
+
+body > div.ionic-body.grade-a.platform-web > div.bar.bar-header.positive-background.nav-bar-block.nav-bar-transition-ios.nav-bar-direction-forward > h1 {
+  font-family: 'mission-script';
+  font-size: 28px;
+  line-height: 55px;
+}
+
+.nav-button {
+  background: transparent;
+  color: #FFFFFF;
+  border: 1px solid #FFF;
+}
+
+.nav-button.active-nav-button {
+  background: #FFF;
+  border: 1px solid #FFF;
+  color: $positive;
+}
+
+.no-transition {
+  -webkit-transition: none !important;
+  transition: none !important;
+}
+
+
+.positive-background {
+  background: $positive
+}
+
+.bar-transparent {
+  background: transparent;
+}
+
+// controls item background color
+.item {
+  background: transparent;
+}
+
+.scroll-content {
+  background: $positive;
+  background: -moz-linear-gradient(top, $positive 0%, $positive-gradient 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, $positive), color-stop(100%, $positive-gradient));
+  background: -webkit-linear-gradient(top, $positive 0%, $positive-gradient 100%);
+  background: -o-linear-gradient(top, $positive 0%, $positive-gradient 100%);
+  background: -ms-linear-gradient(top, $positive 0%, $positive-gradient 100%);
+  background: linear-gradient(to bottom, $positive 0%, $positive-gradient 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$positive', endColorstr='$positive-gradient', GradientType=0 );
+}
