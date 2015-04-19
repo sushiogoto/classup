@@ -3,6 +3,7 @@ div.ionic-body.grade-a.platform-web {
   background: rgb(248, 248, 248);
 
   div.class-header {
+    height: 44px;
     input {
       height: 28px;
       margin: 3px 0;
@@ -18,14 +19,15 @@ div.ionic-body.grade-a.platform-web {
     margin-top: 44px;
     text-align: center;
     font-size: 18px;
+    height: 44px;
   }
 
   div.class-view {
     height: calc(667px - 88px);
     width: 375px;
-    // position: fixed;
-    // top: 100px;
-    margin-top: 88px;
+    position: fixed;
+    top: 110px;
+    // margin-top: 88px;
 
     div.view > div.scroll-content > div.content {
       background-color: black;
