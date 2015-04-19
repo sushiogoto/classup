@@ -79,7 +79,10 @@ div.modal {
   border: 1px solid black;
   div.bar.bar-header.bar-stable {
     background-color: #9c27b0;
+    height: 44px !important;
     h2 {
+      margin: 0;
+      padding: 0;
       color: white;
     }
   }
