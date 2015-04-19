@@ -74,3 +74,17 @@ div.friends {
     }
   }
 }
+
+div.modal {
+  border: 1px solid black;
+  div.bar.bar-header.bar-stable {
+    background-color: #9c27b0;
+    h2 {
+      color: white;
+    }
+  }
+  div.content.has-header.overflow-scroll > div.padding > p {
+    text-align: center;
+    padding-top: 40px;
+  }
+}
