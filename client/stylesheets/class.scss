@@ -7,8 +7,10 @@ div.ionic-body.grade-a.platform-web {
       height: 28px;
       margin: 3px 0;
       padding: 0;
-      border-radius: 5px;
-      text-align: center;
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+      text-align: left;
+
     }
   }
 
@@ -56,16 +58,16 @@ div.ionic-body.grade-a.platform-web {
           div.info-right {
             width: 244px;
             div.class-gym {
-              font-size: 20px;
-              font-weight: bold;
-              color: #9C27B0;
-              line-height: 30px;
-            }
-            div.class-name, div.class-instructor, div.class-location {
               font-size: 14px;
               font-weight: bold;
               color: black;
               line-height: 16px;
+            }
+            div.class-name, div.class-instructor, div.class-location {
+              font-size: 20px;
+              font-weight: bold;
+              color: #9C27B0;
+              line-height: 30px;
             }
             div.class-location {
               font-size: 14px;
