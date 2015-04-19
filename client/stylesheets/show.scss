@@ -53,14 +53,14 @@
 
 .detail-section {
   background: white;
-  height: 295px;
+  height: 260px;
   margin-top: 43px;
 }
 
 div.category, div.friends {
   text-align: center;
   padding-top: 20px;
-  h3, p {
+  h3, h4 {
     color: black;
   }
 }
@@ -69,8 +69,8 @@ div.friends {
   ul > li {
     display: inline;
     img {
-      height: 35px;
-      width: 35px;
+      height: 54px;
+      width: 54px;
     }
   }
 }
