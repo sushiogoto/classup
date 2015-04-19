@@ -10,7 +10,8 @@ ClassesList.insert({
  instructor: "Baznini Kundalini",
  region: "Quarry Bay",
  address: "16/F Hoi Tai Street",
- image: "/images/jane.jpg"
+ image: "/images/jane.jpg",
+ category: "Yoga"
 });
 
 ClassesList.insert({
@@ -23,7 +24,8 @@ ClassesList.insert({
  instructor: "Paksam Nukrap",
  region: "Quarry Bay",
  address: "49-51 Jervois Street",
- image: "/images/kickboxing.jpg"
+ image: "/images/kickboxing.jpg",
+ category: "Wellness"
 });
 
 ClassesList.insert({
@@ -36,7 +38,8 @@ ClassesList.insert({
  instructor: "Catriona Ma",
  region: "Quarry Bay",
  address: "Parkvale, 1060 King's Road",
- image: "/images/spin.jpg"
+ image: "/images/spin.jpg",
+ category: "Cycling"
 });
 
 ClassesList.insert({
@@ -49,7 +52,8 @@ ClassesList.insert({
  instructor: "Ivy Chin",
  region: "Tai Koo",
  address: "16/F The Centrium, 60 Wyndham Street",
- image: "/images/jane.jpg"
+ image: "/images/jane.jpg",
+ category: "Martial Arts"
 });
 
 ClassesList.insert({
@@ -62,7 +66,8 @@ ClassesList.insert({
  instructor: "Singh Dhaliwal",
  region: "Quarry Bay",
  address: "Parkvale, 1060 King's Road",
- image: "/images/jane.jpg"
+ image: "/images/jane.jpg",
+ category: "Wellness"
 });
 
 ClassesList.insert({
@@ -75,7 +80,8 @@ ClassesList.insert({
  instructor: "Charlotte Simran",
  region: "Quarry Bay ",
  address: "Lincoln Place, 41 Tong Chong St",
- image: "/images/spin.jpg"
+ image: "/images/spin.jpg",
+ category: "Wellness"
 });
 
 ClassesList.insert({
@@ -88,7 +94,8 @@ ClassesList.insert({
  instructor: "Fu Kitsuwan",
  region: "Tai Koo",
  address: "6/F The Centrium, 60 Wyndham Street",
- image: "/images/kickboxing.jpg"
+ image: "/images/kickboxing.jpg",
+ category: "Martial Arts"
 });
 
 }
