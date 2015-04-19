@@ -29,18 +29,18 @@ div.ionic-body.grade-a.platform-web {
             }
           }
           div.info-left {
-            width: 131px;
+            width: 101px;
             div.class-time {
               font-size: 20px;
               font-weight: bold;
-              color: teal;
+              color: #9C27B0;
               line-height: 30px;
             }
             div.class-length {
               font-size: 14px;
               font-weight: normal;
-              color: gray;
-              line-height: 22px;
+              color: #909090;
+              line-height: 18px;
             }
           }
           div.info-right {
@@ -48,14 +48,21 @@ div.ionic-body.grade-a.platform-web {
             div.class-gym {
               font-size: 20px;
               font-weight: bold;
-              color: teal;
+              color: #9C27B0;
               line-height: 30px;
             }
             div.class-name, div.class-instructor, div.class-location {
-              font-size: 16px;
+              font-size: 14px;
               font-weight: bold;
               color: black;
-              line-height: 22px;
+              line-height: 18px;
+            }
+            div.class-location {
+              color: #909090;
+              line-height: 20px;
+            }
+            div.class-name {
+              color: #AB47BC;
             }
           }
         }
