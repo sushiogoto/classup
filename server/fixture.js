@@ -39,7 +39,7 @@ ClassesList.insert({
  distance: "140m",
  gym: "Orient Fitness",
  gymDescription: "BYS is dedicated to serving the community of healthy and active living.",
- name: "INDOOR CYCLING STUDIO",
+ name: "SPINNING CLASS",
  nameDescription: "Experience the energy-enhancing influence of a yoga session",
  instructor: "Catriona Ma",
  region: "Quarry Bay",

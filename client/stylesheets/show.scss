@@ -57,11 +57,14 @@
   margin-top: 43px;
 }
 
-div.category, div.friends {
+div.category, div.friends, div.class-description, div.gym-description {
   text-align: center;
-  padding-top: 20px;
-  h3, h4 {
+  padding-top: 23px;
+  h3, h4, p{
     color: black;
+  }
+  p {
+    padding: 0 25px;
   }
 }
 
@@ -81,13 +84,21 @@ div.modal {
     background-color: #9c27b0;
     height: 44px !important;
     h2 {
-      margin: 0;
-      padding: 0;
+      line-height: 44px;
+      margin: 0 !important;
+      padding: 0 !important;
       color: white;
+    }
+    button {
+      position: fixed;
+      line-height: 44px;
+      margin: 0 !important;
+      padding: 0 !important;
     }
   }
   div.content.has-header.overflow-scroll > div.padding > p {
     text-align: center;
-    padding-top: 40px;
+    padding: 30px 0 0 0;
+    margin: 0;
   }
 }
