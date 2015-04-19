@@ -1,133 +1,94 @@
 if (ClassesList.find().count() === 0 ){
 
 ClassesList.insert({
-  time: "5:30 PM",
-  duration: "60 Min",
-  length: "30 Min",
-  distance: "321m",
-  gym: "BOUTIQUE YOGA STUDIO",
-  name: "Yoga",
-  instructor: "Baznini Kundalini",
-  region: "Quarry Bay",
-  address: "16/F Hoi Tai Street, Quarry Bay",
-  image: "/images/jane.jpg"
+ time: "5:30 PM",
+ duration: "60 Min",
+ length: "60 Min",
+ distance: "321m",
+ gym: "Boutique Yoga Studio",
+ name: "YOGA",
+ instructor: "Baznini Kundalini",
+ region: "Quarry Bay",
+ address: "16/F Hoi Tai Street",
+ image: "/images/jane.jpg"
 });
 
 ClassesList.insert({
-  time: "5:30 PM",
-  duration: "75 Min",
-  length: "60 Min",
-  distance: "234m",
-  gym: "MARTIAL ARTS STUDIO",
-  name: "Epic Kick Boxing",
-  instructor: "Paksam Nukrap",
-  region: "Quarry Bay",
-  address: "49-51 Jervois Street, Central",
-  image: "/images/kickboxing.jpg"
+ time: "5:30 PM",
+ duration: "75 Min",
+ length: "75 Min",
+ distance: "234m",
+ gym: "Martial Arts Studio",
+ name: "EPIC KICKBOXING",
+ instructor: "Paksam Nukrap",
+ region: "Quarry Bay",
+ address: "49-51 Jervois Street",
+ image: "/images/kickboxing.jpg"
 });
 
 ClassesList.insert({
-  time: "6:00 PM",
-  duration: "60 Min",
-  length: "2 Hours",
-  distance: "321m",
-  gym: "Pure",
-  name: "Yoga",
-  instructor: "Yoshi",
-  region: "Quarry Bay",
-  address: "16/F The Centrium, 60 Wyndham Street, Central",
-  image: "/images/jane.jpg"
+ time: "6:00 PM",
+ duration: "40 Min",
+ length: "40 min",
+ distance: "140m",
+ gym: "Orient Fitness",
+ name: "INDOOR CYCLING STUDIO",
+ instructor: "Catriona Ma",
+ region: "Quarry Bay",
+ address: "Parkvale, 1060 King's Road",
+ image: "/images/spin.jpg"
 });
 
 ClassesList.insert({
-  time: "6:00 PM",
-  duration: "30 Min",
-  length: "3 Hours",
-  distance: "124m",
-  gym: "Pure",
-  name: "Cycling",
-  instructor: "Kelvin",
-  region: "Quarry Bay",
-  address: "16/F The Centrium, 60 Wyndham Street, Central",
-  image: "/images/spin.jpg"
+ time: "6:30 PM",
+ duration: "30 Min",
+ length: "30 Min",
+ distance: "124m",
+ gym: "Fitness Now",
+ name: "TAI CHI",
+ instructor: "Ivy Chin",
+ region: "Tai Koo",
+ address: "16/F The Centrium, 60 Wyndham Street",
+ image: "/images/jane.jpg"
 });
 
 ClassesList.insert({
-  time: "7:00 PM",
-  duration: "45 Min",
-  length: "3 Hours",
-  distance: "264m",
-  gym: "California",
-  name: "Cycling",
-  instructor: "Cassie",
-  region: "Quarry Bay",
-  address: "139 Queens Road, Central",
-  image: "/images/spin.jpg"
+ time: "7:30 PM",
+ duration: "30 Min",
+ length: "60 Min",
+ distance: "505m",
+ gym: "Orient Fitness",
+ name: "ADVANCED YOGA",
+ instructor: "Singh Dhaliwal",
+ region: "Quarry Bay",
+ address: "Parkvale, 1060 King's Road",
+ image: "/images/jane.jpg"
 });
 
 ClassesList.insert({
-  time: "7:00 PM",
-  duration: "60 Min",
-  length: "7 Hours",
-  distance: "234m",
-  gym: "ATMA Studio",
-  name: "Epic Kick Boxing",
-  instructor: "Dom",
-  region: "Quarry Bay",
-  address: "49-51 Jervois Street, Central",
-  image: "/images/kickboxing.jpg"
+ time: "7:30 PM",
+ duration: "45 Min",
+ length: "45 Min",
+ distance: "374m",
+ gym: "More Wellness",
+ name: "PILATES",
+ instructor: "Charlotte Simran",
+ region: "Quarry Bay ",
+ address: "Lincoln Place, 41 Tong Chong St",
+ image: "/images/spin.jpg"
 });
 
 ClassesList.insert({
-  time: "7:00 PM",
-  duration: "45 Min",
-  length: "3 Hours",
-  distance: "264m",
-  gym: "California",
-  name: "Cycling",
-  instructor: "Cassie",
-  region: "Quarry Bay",
-  address: "139 Queens Road, Central",
-  image: "/images/spin.jpg"
-});
-
-ClassesList.insert({
-  time: "7:00 PM",
-  duration: "60 Min",
-  length: "7 Hours",
-  distance: "234m",
-  gym: "ATMA Studio",
-  name: "Epic Kick Boxing",
-  instructor: "Dom",
-  region: "Quarry Bay",
-  address: "49-51 Jervois Street, Central",
-  image: "/images/kickboxing.jpg"
-});
-
-ClassesList.insert({
-  time: "7:00 PM",
-  duration: "45 Min",
-  length: "3 Hours",
-  distance: "264m",
-  gym: "California",
-  name: "Cycling",
-  instructor: "Cassie",
-  region: "Quarry Bay",
-  address: "139 Queens Road, Central",
-  image: "/images/spin.jpg"
-});
-
-ClassesList.insert({
-  time: "7:00 PM",
-  duration: "60 Min",
-  length: "7 Hours",
-  distance: "234m",
-  gym: "ATMA Studio",
-  name: "Epic Kick Boxing",
-  instructor: "Dom",
-  region: "Quarry Bay",
-  address: "49-51 Jervois Street, Central",
-  image: "/images/kickboxing.jpg"
+ time: "8:00 PM",
+ duration: "60 Min",
+ length: "60 Min",
+ distance: "124m",
+ gym: "Fitness Now",
+ name: "BODY COMBAT",
+ instructor: "Fu Kitsuwan",
+ region: "Tai Koo",
+ address: "6/F The Centrium, 60 Wyndham Street",
+ image: "/images/kickboxing.jpg"
 });
 
 }
