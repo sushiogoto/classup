@@ -15,16 +15,17 @@ div.ionic-body.grade-a.platform-web {
   }
 
   div.class-header2 {
-    margin-top: 36px;
+    margin-top: 44px;
     text-align: center;
     font-size: 18px;
   }
 
   div.class-view {
-    height: calc(667px - 80px);
+    height: calc(667px - 88px);
     width: 375px;
-    position: fixed;
-    top: 100px;
+    // position: fixed;
+    // top: 100px;
+    margin-top: 88px;
 
     div.view > div.scroll-content > div.content {
       background-color: black;

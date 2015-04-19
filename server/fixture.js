@@ -34,7 +34,7 @@ ClassesList.insert({
  length: "40 min",
  distance: "140m",
  gym: "Orient Fitness",
- name: "INDOOR CYCLING STUDIO",
+ name: "SPINNING CLASS",
  instructor: "Catriona Ma",
  region: "Quarry Bay",
  address: "Parkvale, 1060 King's Road",
