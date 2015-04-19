@@ -5,15 +5,23 @@ div.ionic-body.grade-a.platform-web {
   div.class-header {
     height: 44px;
     position: fixed;
-    top: 15px;
     input {
       height: 28px;
+      width: 197px;
       margin: 3px 0;
       padding: 0;
       border-top-right-radius: 5px;
       border-bottom-right-radius: 5px;
       text-align: left;
-
+    }
+    span {
+      background: white; 
+      border-top-left-radius: 5px; 
+      border-bottom-left-radius: 5px; 
+      height: 28px; 
+      width: 60px; 
+      margin: 10px 0 0 0; 
+      text-align: right;
     }
   }
 
