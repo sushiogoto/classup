@@ -1,3 +1,5 @@
+if (ClassesList.find().count() === 0 ){
+
 ClassesList.insert({
   time: "5:30 PM",
   duration: "60 Min",
@@ -127,3 +129,5 @@ ClassesList.insert({
   address: "49-51 Jervois Street, Central",
   image: "/images/kickboxing.jpg"
 });
+
+}

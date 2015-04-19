@@ -46,13 +46,13 @@ div.ionic-body.grade-a.platform-web {
               font-size: 20px;
               font-weight: bold;
               color: #9C27B0;
-              line-height: 30px;
+              line-height: 40px;
             }
             div.class-length {
               font-size: 14px;
               font-weight: normal;
               color: #909090;
-              line-height: 18px;
+              line-height: 16px;
             }
           }
           div.info-right {
@@ -64,18 +64,19 @@ div.ionic-body.grade-a.platform-web {
               line-height: 16px;
             }
             div.class-name, div.class-instructor, div.class-location {
-              font-size: 20px;
-              font-weight: bold;
-              color: #9C27B0;
-              line-height: 30px;
+              font-size: 14px;
+              line-height: 20px;
             }
             div.class-location {
               font-size: 14px;
               color: #909090;
-              line-height: 22px;
+              line-height: 25px;
             }
             div.class-name {
-              color: #AB47BC;
+              font-size: 20px;
+              line-height: 40px;
+              color: #9C27B0;
+              font-weight: bold;
             }
           }
         }
