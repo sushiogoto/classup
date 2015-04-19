@@ -75,13 +75,13 @@ body > div.ionic-body.grade-a.platform-web > div.bar.bar-header.positive-backgro
   background: transparent;
 }
 
-.scroll-content {
-  background: $positive;
-  background: -moz-linear-gradient(top, $positive 0%, $positive-gradient 100%);
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, $positive), color-stop(100%, $positive-gradient));
-  background: -webkit-linear-gradient(top, $positive 0%, $positive-gradient 100%);
-  background: -o-linear-gradient(top, $positive 0%, $positive-gradient 100%);
-  background: -ms-linear-gradient(top, $positive 0%, $positive-gradient 100%);
-  background: linear-gradient(to bottom, $positive 0%, $positive-gradient 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$positive', endColorstr='$positive-gradient', GradientType=0 );
-}
+// .scroll-content {
+//   background: $positive;
+//   background: -moz-linear-gradient(top, $positive 0%, $positive-gradient 100%);
+//   background: -webkit-gradient(left top, left bottom, color-stop(0%, $positive), color-stop(100%, $positive-gradient));
+//   background: -webkit-linear-gradient(top, $positive 0%, $positive-gradient 100%);
+//   background: -o-linear-gradient(top, $positive 0%, $positive-gradient 100%);
+//   background: -ms-linear-gradient(top, $positive 0%, $positive-gradient 100%);
+//   background: linear-gradient(to bottom, $positive 0%, $positive-gradient 100%);
+//   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$positive', endColorstr='$positive-gradient', GradientType=0 );
+// }

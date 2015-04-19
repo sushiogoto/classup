@@ -1,10 +1,26 @@
 <template name="classes">
 
   <div class="bar bar-header bar-dark class-header">
-    <input type="text" placeholder="activity or region">
-    <a class="item-icon-right" href="#">
-      <i class="icon ion-ios-settings"></i>
+    <a class="item-icon-left" href="#">
+      <i class="icon ion-ios-gear" style="color: #9C27B0"></i>
     </a>
+    <span style="background: white; border-top-left-radius: 5px; border-bottom-left-radius: 5px; height: 28px; width: 110px; margin: 3px 0; text-align: right;"><i class="icon ion-ios-search-strong" style="color: #909090; font-size: 20px; line-height: 28px;"></i></span>
+    <input type="text" placeholder="  Filter by Class or Venuer">
+    <a class="item-icon-right" href="#">
+      <i class="icon ion-ios-settings" style="color: #9C27B0"></i>
+    </a>
+  </div>
+
+  <div class="bar bar-header bar-dark class-header2">
+      <a class="item-icon-left" href="#">
+        <i class="icon ion-arrow-left-b" style="color: #909090"></i>
+      </a>
+    <div style="text-align: center; width: 250px; line-height: 36px;">
+      SUNDAY, APRIL 19
+    </div>
+      <a class="item-icon-right" href="#">
+        <i class="icon ion-arrow-right-b" style="color: #909090"></i>
+      </a>
   </div>
 
   <div class="class-view">
@@ -20,8 +36,8 @@
                       <div class="info-detail class-length">{{length}}</div>
                     </div>
                     <div class="info-right">
-                      <div class="info-detail class-gym">{{gym}}</div>
                       <div class="info-detail class-name">{{name}}</div>
+                      <div class="info-detail class-gym">{{gym}}</div>
                       <div class="info-detail class-instructor">{{instructor}}</div>
                       <div class="info-detail class-location">{{region}}</div>
                     </div>

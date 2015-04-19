@@ -4,15 +4,27 @@ div.ionic-body.grade-a.platform-web {
 
   div.class-header {
     input {
-      height: 34px;
+      height: 28px;
+      margin: 3px 0;
+      padding: 0;
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+      text-align: left;
+
     }
   }
 
+  div.class-header2 {
+    margin-top: 36px;
+    text-align: center;
+    font-size: 18px;
+  }
+
   div.class-view {
-    height: calc(667px - 44px);
+    height: calc(667px - 80px);
     width: 375px;
     position: fixed;
-    top: 64px;
+    top: 100px;
 
     div.view > div.scroll-content > div.content {
       background-color: black;
@@ -29,33 +41,42 @@ div.ionic-body.grade-a.platform-web {
             }
           }
           div.info-left {
-            width: 131px;
+            width: 101px;
             div.class-time {
               font-size: 20px;
               font-weight: bold;
-              color: teal;
-              line-height: 30px;
+              color: #9C27B0;
+              line-height: 40px;
             }
             div.class-length {
               font-size: 14px;
               font-weight: normal;
-              color: gray;
-              line-height: 22px;
+              color: #909090;
+              line-height: 14px;
             }
           }
           div.info-right {
             width: 244px;
             div.class-gym {
-              font-size: 20px;
-              font-weight: bold;
-              color: teal;
-              line-height: 30px;
-            }
-            div.class-name, div.class-instructor, div.class-location {
-              font-size: 16px;
+              font-size: 14px;
               font-weight: bold;
               color: black;
-              line-height: 22px;
+              line-height: 14px;
+            }
+            div.class-name, div.class-instructor, div.class-location {
+              font-size: 14px;
+              line-height: 20px;
+            }
+            div.class-location {
+              font-size: 14px;
+              color: #909090;
+              line-height: 25px;
+            }
+            div.class-name {
+              font-size: 20px;
+              line-height: 40px;
+              color: #9C27B0;
+              font-weight: bold;
             }
           }
         }
