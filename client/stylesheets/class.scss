@@ -4,6 +4,7 @@ div.ionic-body.grade-a.platform-web {
 
   div.class-header {
     height: 44px;
+    position: fixed;
     input {
       height: 28px;
       margin: 3px 0;
@@ -16,10 +17,12 @@ div.ionic-body.grade-a.platform-web {
   }
 
   div.class-header2 {
-    margin-top: 44px;
+    // margin-top: 44px;
     text-align: center;
     font-size: 18px;
     height: 44px;
+    position: fixed;
+    top: 50px;
   }
 
   div.class-view {
@@ -30,7 +33,7 @@ div.ionic-body.grade-a.platform-web {
     // margin-top: 88px;
 
     div.view > div.scroll-content > div.content {
-      background-color: black;
+      background-color: white;
 
       div.list > div.class-item {
         a {
