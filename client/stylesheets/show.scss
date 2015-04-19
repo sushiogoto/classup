@@ -4,26 +4,36 @@
   font-weight: bold;
 }
 .jumbotron, .reserveButton, .moreInfo {
-  height: calc(100vh -43px);
+  height: 283px;
   position: relative;
   top: 43px;
 }
-h2 {
-  padding-top: 200px;
+.className {
+  padding-top: 45px;
 }
-h2, h3, h4, p {
-  text-align: center;
-  color: white !important;
-  font-weight: bold;
+.gym, .className {
+  margin-bottom: 15px;
+}
+.date, .time, .length {
+  margin: 0;
+}
+
+.jumbotron {
+    h1, h2, h3, h4, p {
+    text-align: center;
+    color: white !important;
+    font-weight: bold;
+  }
 }
 .reserveButton {
   margin: 0;
-  position: 0;
+  height: 47px;
 }
 
 .jumboText {
   background: black;
   margin-bottom: -372px;
+  height: 283px;
 }
 .length {
   padding-bottom: 25px;
@@ -39,4 +49,28 @@ h2, h3, h4, p {
   color: #333 !important;
   font-size: 20px !important;
   padding-top: 20px;
+}
+
+.detail-section {
+  background: white;
+  height: 295px;
+  margin-top: 43px;
+}
+
+div.category, div.friends {
+  text-align: center;
+  padding-top: 20px;
+  h3, p {
+    color: black;
+  }
+}
+
+div.friends {
+  ul > li {
+    display: inline;
+    img {
+      height: 35px;
+      width: 35px;
+    }
+  }
 }

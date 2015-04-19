@@ -6,29 +6,37 @@
   </div>
   {{#ionView}}
     {{#ionContent}}
-    <div class="jumbotron" style="margin-top:-18px">
+    <div class="jumbotron" style="margin-top:0px">
       <div class="jumboText" style="opacity: 1;">
-        <h2 class="className">{{name}}</h2>
-        <p class="length">Starts in {{length}} - Join 5 friends</p>
-        <h4 class="instructor">{{instructor}} - {{gym}}</h4>
-        <p class="address">{{address}}</p>
-        <p class="region">{{region}}</p>
+        <h1 class="className">{{name}}</h1>
+        <h3 class="gym"> {{gym}}</h3>
+        <p class="instructor">{{instructor}}</p>
+        <p class="date">SUNDAY, APRIL 19</p>
+        <p class="time">{{time}}</p>
+        <p class="length">{{length}}</p>
       </div>
-      <div class="backJumbo" style="background: url({{image}}) no-repeat center center; background-size: cover; padding-bottom: 15px; padding-top: 15px; min-height: 577px"></div>
-      <div class="backJumbo" ></div>
+      <div class="backJumbo" style="background: url({{image}}) no-repeat center center; background-size: cover; height: 283px; margin-top: 90px;"></div>
     </div>
     <div class="reserveButton">
       <button class="button button-full button-assertive" data-ion-modal="_modal" style="margin: 0">
         RESERVE CLASS
       </button>
     </div>
-    <!-- <div class="moreInfo">
-      <ul class="list">
-        <li class="item">
-
-        </li>
-      </ul>
-    </div> -->
+    <div class="detail-section">
+      <div class="category">
+        <h3>Category</h3>
+        <p>Something</p>
+        <!-- <p>{{category}}</p> -->
+      </div>
+      <div class="friends">
+        <h3>Friends</h3>
+        <ul>
+          <li><img src="/images/friend1.png" alt=""></li>
+          <li><img src="/images/friend2.png" alt=""></li>
+          <li><img src="/images/friend3.png" alt=""></li>
+        </ul>
+      </div>
+    </div>
     {{/ionContent}}
   {{/ionView}}
 
