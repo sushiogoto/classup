@@ -4,22 +4,36 @@ div.ionic-body.grade-a.platform-web {
 
   div.class-header {
     height: 44px;
+    position: fixed;
     input {
       height: 28px;
+      width: 197px;
       margin: 3px 0;
       padding: 0;
       border-top-right-radius: 5px;
+      border-top-left-radius: 0;
       border-bottom-right-radius: 5px;
+      border-bottom-left-radius: 0;
       text-align: left;
-
+    }
+    span {
+      background: white;
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+      height: 28px;
+      width: 60px;
+      margin: 10px 0 0 0;
+      text-align: right;
     }
   }
 
   div.class-header2 {
-    margin-top: 44px;
+    /*margin-top: 44px;*/
     text-align: center;
     font-size: 18px;
-    height: 44px;
+    height: 34px !important;
+    position: fixed;
+    top: 58px;
   }
 
   div.class-view {
@@ -30,7 +44,7 @@ div.ionic-body.grade-a.platform-web {
     // margin-top: 88px;
 
     div.view > div.scroll-content > div.content {
-      background-color: black;
+      background-color: rgb(248,248,248);
 
       div.list > div.class-item {
         a {
