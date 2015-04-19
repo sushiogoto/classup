@@ -3,7 +3,11 @@
   <div class="bar bar-header bar-dark">
     <a class="button icon-left ion-ios-arrow-thin-left button-clear button-dark" href="{{pathFor 'classes'}}" style="color: white;"></a>
     <h1 class="title">CLASS DETAIL</h1>
+    <a class="item-icon-right" href="#">
+      <i class="icon ion-ios-calendar-outline"></i>
+    </a>
   </div>
+
   {{#ionView}}
     {{#ionContent}}
     <div class="jumbotron" style="margin-top:0px">
@@ -18,7 +22,7 @@
       <div class="backJumbo" style="background: url({{image}}) no-repeat center center; background-size: cover; height: 283px; margin-top: 90px;"></div>
     </div>
     <div class="reserveButton">
-      <button class="button button-full button-assertive" data-ion-modal="_modal" style="margin: 0">
+      <button class="button button-full" data-ion-modal="_modal" style="margin: 0; background-color: #9c27b0; border: 0; color: white;">
         RESERVE CLASS
       </button>
     </div>
