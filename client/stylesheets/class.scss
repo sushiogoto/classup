@@ -4,15 +4,25 @@ div.ionic-body.grade-a.platform-web {
 
   div.class-header {
     input {
-      height: 34px;
+      height: 28px;
+      margin: 3px 0;
+      padding: 0;
+      border-radius: 5px;
+      text-align: center;
     }
   }
 
+  div.class-header2 {
+    margin-top: 36px;
+    text-align: center;
+    font-size: 18px;
+  }
+
   div.class-view {
-    height: calc(667px - 44px);
+    height: calc(667px - 80px);
     width: 375px;
     position: fixed;
-    top: 64px;
+    top: 100px;
 
     div.view > div.scroll-content > div.content {
       background-color: black;
@@ -55,11 +65,12 @@ div.ionic-body.grade-a.platform-web {
               font-size: 14px;
               font-weight: bold;
               color: black;
-              line-height: 18px;
+              line-height: 16px;
             }
             div.class-location {
+              font-size: 14px;
               color: #909090;
-              line-height: 20px;
+              line-height: 22px;
             }
             div.class-name {
               color: #AB47BC;
