@@ -8,11 +8,19 @@
 
 .login-logo-container {
   text-align: center;
+  color: white;
+}
+
+.login-logo-container p {
+  margin-top: 20px;
+  font-size: 22px;
+  font-family: gotham-book;
 }
 
 #login-logo {
-  margin: 250px auto 0;
-  width: 80%;
+  margin: 240px auto 0;
+  max-height: 80px;
+  // width: 80%;
 }
 
 .slogan {

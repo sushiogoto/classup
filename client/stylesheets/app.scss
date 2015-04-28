@@ -29,6 +29,22 @@ $loading-font-size: 22px;
   font-style: normal;
 }
 
+@font-face {
+  font-family: "gotham-thin";
+  src:
+  url("/fonts/gotham/gotham-thin.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "gotham-book";
+  src:
+  url("/fonts/gotham/gotham-book.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
 a {
   text-decoration: none;
 }
