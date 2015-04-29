@@ -5,6 +5,9 @@ div.ionic-body.grade-a.platform-web {
   div.class-header {
     height: 44px;
     position: fixed;
+    a > i{
+      margin-top: 8px;
+    }
     input {
       height: 28px;
       width: 197px;
